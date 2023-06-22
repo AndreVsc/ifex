@@ -217,6 +217,7 @@
         <div class="text-center">
           <h3>Call To Action</h3>
           <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
           <a class="cta-btn" href="#">Call To Action</a>
         </div>
 
@@ -350,24 +351,26 @@
         </div>
         <div class="container">
           
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <form action="https://formsubmit.co/vsandre40@gmail.com" method="POST" class="php-email-form">
                 <div class="row">
                   <div class="col-md-12 form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required>
+                    <input type="text" name="name" class="form-control" placeholder="Nome" required>
                   </div>
                   <div class="col-md-6 form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="CNPJ" required>
+                    <input type="text" name="name" class="form-control" placeholder="CNPJ" required>
                   </div>
                   <div class="col-md-6 form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Email" required>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
                   </div>
                   <div class="col-md-6 form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Cidade" required>
                   </div>
                   <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Telefone" required>
+                    <input type="number" class="form-control" name="name" id="name" placeholder="Telefone" required>
                   </div>
                 </div>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://andrevsc.github.io/obrigado.html">
                 <div class="form-group mt-3">
                   <textarea class="form-control" name="message" rows="5" placeholder="Demanda" required></textarea>
                 </div>
@@ -630,7 +633,7 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0" >
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://formsubmit.co/vsandre40@gmail.com" method="POST" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" required>
@@ -639,6 +642,8 @@
                   <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" required>
                 </div>
               </div>
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="http://andrevsc.github.io/obrigado.html">
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
               </div>
